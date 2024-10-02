@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NLPAPP | login Page</title>
+</head>
+<body style="background:#f8bdb8">
+    <h1 style="text-align: center; font-family: cursive;">
+        <span style="background: #b8f1f8; display: inline-block;">NLP APP</span>
+    </h1>
+
+    <h3><u>💻Login Here💻</u></h3>
+
+    <!- to right in python under html we use jinja template from flask-->
+    {% if message%}
+    <p style="color:green;">{{message}}</p>
+    {%endif%}
+
+    <form action="/perform_login", method="post">
+        <label>Email:</label><br><br>
+        <input type="email" name="user's email" required><br><br>
+        <label>Password:</label><br><br>
+        <input type="password" name="user's password" required><br><br>
+        <input type="submit" value="login">
+    </form>
+    <p>Not a member? <a href="/register">Register here</a> </p>
+</body>
+</html>

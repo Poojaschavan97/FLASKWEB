@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>login.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+login.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;title&gt;</span><span class="s1">NLPAPP | login Page</span><span class="s0">&lt;/title&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+<span class="s0">&lt;body </span><span class="s2">style</span><span class="s3">=&quot;background:#f8bdb8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;h1 </span><span class="s2">style</span><span class="s3">=&quot;text-align: center; font-family: cursive;&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;span </span><span class="s2">style</span><span class="s3">=&quot;background: #b8f1f8; display: inline-block;&quot;</span><span class="s0">&gt;</span><span class="s1">NLP APP</span><span class="s0">&lt;/span&gt;</span>
+    <span class="s0">&lt;/h1&gt;</span>
+
+    <span class="s0">&lt;h3&gt;&lt;u&gt;</span><span class="s1">💻Login Here💻</span><span class="s0">&lt;/u&gt;&lt;/h3&gt;</span>
+
+    <span class="s1">&lt;!- to right in python under html we use jinja template from flask--&gt;</span>
+    <span class="s1">{% if message%}</span>
+    <span class="s0">&lt;p </span><span class="s2">style</span><span class="s3">=&quot;color:green;&quot;</span><span class="s0">&gt;</span><span class="s1">{{message}}</span><span class="s0">&lt;/p&gt;</span>
+    <span class="s1">{%endif%}</span>
+
+    <span class="s0">&lt;form </span><span class="s2">action</span><span class="s3">=&quot;/perform_login&quot;</span><span class="s2">, method</span><span class="s3">=&quot;post&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;label&gt;</span><span class="s1">Email:</span><span class="s0">&lt;/label&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s2">type</span><span class="s3">=&quot;email&quot; </span><span class="s2">name</span><span class="s3">=&quot;user's email&quot; </span><span class="s2">required</span><span class="s0">&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;label&gt;</span><span class="s1">Password:</span><span class="s0">&lt;/label&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s2">type</span><span class="s3">=&quot;password&quot; </span><span class="s2">name</span><span class="s3">=&quot;user's password&quot; </span><span class="s2">required</span><span class="s0">&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s2">type</span><span class="s3">=&quot;submit&quot; </span><span class="s2">value</span><span class="s3">=&quot;login&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;/form&gt;</span>
+    <span class="s0">&lt;p&gt;</span><span class="s1">Not a member? </span><span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;/register&quot;</span><span class="s0">&gt;</span><span class="s1">Register here</span><span class="s0">&lt;/a&gt; &lt;/p&gt;</span>
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span></pre>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NER</title>
+</head>
+<body style="background:#fcfcdc">
+    <form action="/perform_ner" method="post">
+        <h1 style="background:#f8f7af; font-family:Forte; text-align:center;">Named Entity Recognition</h1>
+        <label>Write your text here</label><br><br>
+        <textarea name="ner_text"></textarea><br><br>
+        <label>Enter the entity to search</label>
+        <input type="text" name="entity">
+        <input type="submit" value="Perform NER">
+    </form>
+</body>
+</html>
