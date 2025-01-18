@@ -25,7 +25,7 @@ You can access the application [here](#) (Replace with deployment link if availa
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nlp-flask-app.git
+git clone https://github.com/Poojaschavan97/FLASKWEB.git
 cd nlp-flask-app
 ```
 
