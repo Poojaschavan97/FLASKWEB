@@ -33,8 +33,8 @@ This NLP-powered web application allows users to analyze text using state-of-the
 ## ⚡ **Installation & Setup**
 ```bash
 # Clone the repository
-git clone https://github.com/DataTinker/nlp-webapp.git
-cd nlp-webapp
+git clone https://github.com/Poojaschavan97/FLASKWEB.git
+cd FLASKWEB
 
 # Create virtual environment & activate it
 python -m venv venv
@@ -42,12 +42,9 @@ source venv/bin/activate  # On Windows use 'venv\Scripts\activate'
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Run the Flask app
-python app.py
 ```
-
-*Visit* `http://127.0.0.1:5000/` *in your browser.* 🚀
+# Run the Flask app
+RUN THE DOWNLOADED FILE ON A PLATFORM LIKE PYCHARM.
 
 ---
 
