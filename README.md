@@ -23,7 +23,7 @@ This NLP-powered web application allows users to analyze text using state-of-the
 
 ## 📸 **Screenshots**
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Login+Page" alt="Login Page" />
+  <img src="https://github.com/user-attachments/assets/a17e843c-73af-4ad6-8306-4aaa1056b874" alt="Login Page" />
   <br>
   <img src="https://via.placeholder.com/800x400.png?text=NLP+Dashboard" alt="NLP Dashboard" />
 </p>
