@@ -25,7 +25,7 @@ This NLP-powered web application allows users to analyze text using state-of-the
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a17e843c-73af-4ad6-8306-4aaa1056b874" alt="Login Page" />
   <br>
-  <img src="https://via.placeholder.com/800x400.png?text=NLP+Dashboard" alt="NLP Dashboard" />
+  <img src="https://github.com/user-attachments/assets/782ebbfd-958f-4465-83f5-22de80360b21" alt="NLP Dashboard" />
 </p>
 
 ---
