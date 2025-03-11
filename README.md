@@ -1,101 +1,84 @@
-# NLP Web Application with User Authentication
+### 🧠 NLP Web Application with User Authentication
+**A Flask-based web app for Sentiment Analysis, Named Entity Recognition (NER), and Text Summarization**
 
-A comprehensive web application built using **Flask** for performing **Sentiment Analysis**, **Named Entity Recognition (NER)**, and **Text Summarization**. The app includes a user authentication system featuring **login**, **registration**, and a personalized **profile page** where users can access various NLP tasks.
+---
 
-## Demo
-You can access the application [here](#) (Replace with deployment link if available).
+## 🚀 **Demo**
+🔗 [Live Demo](#) *(Replace with deployment link if available)*
 
-## Features
-- **User Authentication**:
-  - **Login** and **Registration** pages.
-  - Personalized **Profile Page**.
-  
-- **NLP Functionalities**:
-  - **Sentiment Analysis**: Classifies text into positive, negative, or neutral sentiment.
-  - **Named Entity Recognition (NER)**: Extracts entities such as names, organizations, and locations from the text.
-  - **Summarization**: Provides a summarized version of the input text.
+---
 
-## Tech Stack
-- **Backend**: Flask (Python)
-- **Frontend**: HTML, CSS
-- **NLP**: NLPCLOUD
-- **Deployment**: Gunicorn, Docker (optional for production)
+## 📌 **Project Overview**
+This NLP-powered web application allows users to analyze text using state-of-the-art techniques, including **Sentiment Analysis, Named Entity Recognition (NER), and Text Summarization**. With a **user authentication system**, each user gets a personalized experience, ensuring data security and accessibility.
 
-## Setup
+---
 
-### 1. Clone the repository:
+## 🎯 **Features**
+### 👤 **User Authentication**
+- 🔑 **Secure Login & Registration**
+- 🏠 **Personalized Profile Page**
+
+### 📖 **NLP Functionalities**
+- 😊 **Sentiment Analysis** → Classifies text as **Positive, Negative, or Neutral**.
+- 🔍 **Named Entity Recognition (NER)** → Identifies **names, organizations, and locations** in text.
+- ✂️ **Text Summarization** → Generates a concise summary from input text.
+
+---
+
+## 🛠 **Tech Stack**
+- **Backend:** Flask (Python) 🐍
+- **Frontend:** HTML, CSS, Bootstrap 🎨
+- **Database:** SQLite / PostgreSQL 🗄️
+- **NLP Library:** spaCy / Transformers (Hugging Face) 🧠
+
+---
+
+## 📸 **Screenshots**
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Login+Page" alt="Login Page" />
+  <br>
+  <img src="https://via.placeholder.com/800x400.png?text=NLP+Dashboard" alt="NLP Dashboard" />
+</p>
+
+---
+
+## ⚡ **Installation & Setup**
 ```bash
-git clone https://github.com/Poojaschavan97/FLASKWEB.git
-cd nlp-flask-app
-```
+# Clone the repository
+git clone https://github.com/DataTinker/nlp-webapp.git
+cd nlp-webapp
 
-### 2. Set up a virtual environment:
-```bash
+# Create virtual environment & activate it
 python -m venv venv
-source venv/bin/activate   # For Windows use `venv\Scripts\activate`
-```
+source venv/bin/activate  # On Windows use 'venv\Scripts\activate'
 
-### 3. Install the dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the Flask app
+python app.py
 ```
 
-### 4. Set up the database (SQLite in this example):
-```bash
-flask shell
-from DB import Database
-dbo = Database()
-dbo.create_all()
-exit()
-```
+*Visit* `http://127.0.0.1:5000/` *in your browser.* 🚀
 
-### 5. Run the application:
-```bash
-flask run
-```
+---
 
-Access the application at `http://127.0.0.1:5000/`.
+## 📊 **Project Statistics**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataTinker&repo=nlp-webapp&theme=radical" alt="Repo Stats" />
+</p>
 
-## Usage
+---
 
-### 1. User Authentication:
-- **Registration**: New users can register on the `/register` page.
-- **Login**: Existing users can log in through the `/` (home) page.
+## 🤝 **Contributing**
+Contributions are welcome! If you’d like to improve this project, feel free to **fork**, make your changes, and submit a **pull request**.
 
-### 2. NLP Actions:
-Once logged in, users are directed to their **profile page**, where they can choose between:
-- **Sentiment Analysis**: Classify the sentiment of text input.
-- **Named Entity Recognition (NER)**: Extract and display entities from text.
-- **Summarization**: Generate a concise summary from input text.
+---
 
-### Example:
-To perform sentiment analysis:
-1. Go to the **Sentiment Analysis** page.
-2. Enter your text and submit the form.
-3. The result will display whether the sentiment is positive, negative, or neutral.
+## 📫 **Contact Me**
+- 💼 [LinkedIn](https://www.linkedin.com/in/datantinker/)  
+- ✉️ Email: datatinker@example.com  
 
-## Project Structure
-```
-nlp-flask-app/
-│
-├── app.py               # Main Flask application
-├── DB.py                # Database handling (user authentication)
-├── API.py               # External API calls for NLP tasks
-├── templates/           # HTML templates
-│   ├── login.html       # Login page
-│   ├── registration.html # Registration page
-│   ├── profile.html     # Profile page
-│   ├── NER.html         # NER input page
-│   ├── Sentiment.html   # Sentiment Analysis page
-│   ├── summary.html     # Summarization page
-├── static/              # Static files (CSS, JS)
-│   ├── styles.css       # Styling for the app
-├── requirements.txt     # Python dependencies
-└── README.md            # Project README file
-```
+⚡ _Let’s make NLP more accessible together!_ 🤖✨  
 
-## Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#) (Replace with GitHub issues link).
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+**By DataTinker**
