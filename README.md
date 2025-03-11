@@ -3,11 +3,6 @@
 
 ---
 
-## 🚀 **Demo**
-🔗 [Live Demo](#) *(Replace with deployment link if available)*
-
----
-
 ## 📌 **Project Overview**
 This NLP-powered web application allows users to analyze text using state-of-the-art techniques, including **Sentiment Analysis, Named Entity Recognition (NER), and Text Summarization**. With a **user authentication system**, each user gets a personalized experience, ensuring data security and accessibility.
 
@@ -23,13 +18,6 @@ This NLP-powered web application allows users to analyze text using state-of-the
 - 🔍 **Named Entity Recognition (NER)** → Identifies **names, organizations, and locations** in text.
 - ✂️ **Text Summarization** → Generates a concise summary from input text.
 
----
-
-## 🛠 **Tech Stack**
-- **Backend:** Flask (Python) 🐍
-- **Frontend:** HTML, CSS, Bootstrap 🎨
-- **Database:** SQLite / PostgreSQL 🗄️
-- **NLP Library:** spaCy / Transformers (Hugging Face) 🧠
 
 ---
 
@@ -65,19 +53,15 @@ python app.py
 
 ## 📊 **Project Statistics**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataTinker&repo=nlp-webapp&theme=radical" alt="Repo Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Poojaschavan97&repo=FLASKWEB&theme=radical" alt="Repo Stats" />
 </p>
 
 ---
 
-## 🤝 **Contributing**
-Contributions are welcome! If you’d like to improve this project, feel free to **fork**, make your changes, and submit a **pull request**.
-
----
 
 ## 📫 **Contact Me**
 - 💼 [LinkedIn](https://www.linkedin.com/in/datantinker/)  
-- ✉️ Email: datatinker@example.com  
+- ✉️ Email: poojachavan.0109@gmail.com  
 
 ⚡ _Let’s make NLP more accessible together!_ 🤖✨  
 
